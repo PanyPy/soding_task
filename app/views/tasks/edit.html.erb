@@ -1,0 +1,12 @@
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">Editing Task</h3>
+  </div>
+  <div class="panel-body">
+
+    <%= render 'form', task: @task %>
+  </div>
+</div>
+
+<%= link_to 'Show', @task, class: 'btn btn-primary' %>
+<%= link_to 'Back', tasks_path, class: 'btn btn-default' %>
